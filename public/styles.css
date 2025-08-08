@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2em;
+    background: #f8f9fa;
+    color: #333;
+}
+h1 {
+    color: #0d6efd;
+}
+h2 {
+    margin-top: 1.5em;
+    color: #198754;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    padding: 5px 0;
+}
+
+.filter-panel {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.filter-panel label {
+    font-size: 0.9rem;
+}
